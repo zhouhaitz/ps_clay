@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: torchsde
+Version: 0.2.5
+Summary: SDE solvers and stochastic adjoint sensitivity analysis in PyTorch.
+Home-page: https://github.com/google-research/torchsde
+Author: Xuechen Li
+Author-email: lxuechen@cs.toronto.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: ~=3.6
+Requires-Dist: boltons (>=20.2.1)
+Requires-Dist: torch (>=1.6.0)
+Requires-Dist: trampoline (>=0.1.2)
+Requires-Dist: numpy (==1.19.*) ; python_version < "3.7"
+Requires-Dist: scipy (==1.5.*) ; python_version < "3.7"
+Requires-Dist: numpy (>=1.19.*) ; python_version >= "3.7"
+Requires-Dist: scipy (>=1.5) ; python_version >= "3.7"
+
+UNKNOWN
+
+
